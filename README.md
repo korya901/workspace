@@ -1,4 +1,4 @@
 BackEnd Capstone App
  Please test: 
- /bookings/
+ /bookings/ &
 /api/menu-items/
