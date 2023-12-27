@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "littlelemon/wsgi.py",
+        "src": "workspace/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.10" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.10.13" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "littlelemon/wsgi.py"
+            "dest": "workspace/wsgi.py"
         }
     ]
 }
